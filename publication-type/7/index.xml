@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 | Franck Djeumou</title>
+    <link>https://franckdjeumou.github.io/publication-type/7/</link>
+      <atom:link href="https://franckdjeumou.github.io/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
+    <description>7</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Franck Djeumou</copyright><lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://franckdjeumou.github.io/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_300x300_fit_lanczos_3.png</url>
+      <title>7</title>
+      <link>https://franckdjeumou.github.io/publication-type/7/</link>
+    </image>
+    
+    <item>
+      <title>Safety Guarantees for Drones through Set-Based Formal Verification Methods</title>
+      <link>https://franckdjeumou.github.io/publication/thesis-supaero-2018/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/thesis-supaero-2018/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Build the quadrotor testbed for the team based on Crazyflie drones&lt;/li&gt;
+&lt;li&gt;Develop a hardware and software in the loop, Gazebo-based swarm simulator for the Crazyflie drones&lt;/li&gt;
+&lt;li&gt;Investigate safety of dynamical systems through Taylor-based methods and abstract interpretation&lt;/li&gt;
+&lt;li&gt;On-the-fly, lightweight, real-time verification (reach and safety properties) algorithms to be embedded on the Crazyflie drones&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Human-Embedded Autonomous Flight Under Formal Task Specifications</title>
+      <link>https://franckdjeumou.github.io/publication/thesis-polytechnique-2017/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/thesis-polytechnique-2017/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Design and build quadrotors based on the Snapdragon Platform with PX4 as the autopilot.&lt;/li&gt;
+&lt;li&gt;Implementation of a fast trajectory generator for quadrotors based on the minimum snap approach and a new problem modeling to improve stability and speed&lt;/li&gt;
+&lt;li&gt;Human interface with virtual reality and autonomous flight of a quadrotor via eye-tracking&lt;/li&gt;
+&lt;li&gt;Tracking of stochastically moving targets using POMDP (Partially Observable Markov Decision Process) and human input&lt;/li&gt;
+&lt;li&gt;Model checking and planning of UAVs autonomous missions with specifications written in linear temporal logic (LTL)&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

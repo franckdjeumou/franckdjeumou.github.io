@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Franck Djeumou</title>
+    <link>https://franckdjeumou.github.io/publication-type/2/</link>
+      <atom:link href="https://franckdjeumou.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Franck Djeumou</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://franckdjeumou.github.io/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_300x300_fit_lanczos_3.png</url>
+      <title>2</title>
+      <link>https://franckdjeumou.github.io/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Probabilistic control of heterogeneous swarms subject to graph temporal logic specifications: A decentralized and scalable approach</title>
+      <link>https://franckdjeumou.github.io/publication/probablistic-swarm-control-journal/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/probablistic-swarm-control-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Safety-Constrained Learning and Control using Scarce Data and Reciprocal Barriers</title>
+      <link>https://franckdjeumou.github.io/publication/verginis-2021-safety/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/verginis-2021-safety/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online synthesis for runtime enforcement of safety in multi-agent systems</title>
+      <link>https://franckdjeumou.github.io/publication/raju-2021-online/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/raju-2021-online/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-The-Fly Control of Unknown Systems: From Side Information to Performance Guarantees through Reachability</title>
+      <link>https://franckdjeumou.github.io/publication/on-the-fly-control-journal/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/on-the-fly-control-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Policy synthesis for switched linear systems with Markov decision process switching</title>
+      <link>https://franckdjeumou.github.io/publication/wu-2020-policy/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/wu-2020-policy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

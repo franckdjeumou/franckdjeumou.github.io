@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Franck Djeumou</title>
+    <link>https://franckdjeumou.github.io/</link>
+      <atom:link href="https://franckdjeumou.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Franck Djeumou</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Franck Djeumou</copyright><lastBuildDate>Fri, 14 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://franckdjeumou.github.io/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_300x300_fit_lanczos_3.png</url>
+      <title>Franck Djeumou</title>
+      <link>https://franckdjeumou.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Taylor-Lagrange Neural Ordinary Differential Equations: Toward Fast Training and Evaluation of Neural ODEs</title>
+      <link>https://franckdjeumou.github.io/publication/taylor-lagrange-nodes/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/taylor-lagrange-nodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Networks with Physics-Informed Architectures and Constraints for Dynamical Systems Modeling</title>
+      <link>https://franckdjeumou.github.io/publication/physics-informed-nn-architectures/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/physics-informed-nn-architectures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Reach, Swim, Walk and Fly in One Trial: Data-Driven Control with Scarce Data and Side Information</title>
+      <link>https://franckdjeumou.github.io/publication/learning-to-control-one-trial/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/learning-to-control-one-trial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Task-Guided Inverse Reinforcement Learning Under Partial Information</title>
+      <link>https://franckdjeumou.github.io/publication/task-guided-irl-pomdps/</link>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/task-guided-irl-pomdps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic control of heterogeneous swarms subject to graph temporal logic specifications: A decentralized and scalable approach</title>
+      <link>https://franckdjeumou.github.io/publication/probablistic-swarm-control-journal/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/probablistic-swarm-control-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Safety-Constrained Learning and Control using Scarce Data and Reciprocal Barriers</title>
+      <link>https://franckdjeumou.github.io/publication/verginis-2021-safety/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/verginis-2021-safety/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-the-fly, data-driven reachability analysis and control of unknown systems: an F-16 aircraft case study</title>
+      <link>https://franckdjeumou.github.io/publication/on-the-fly-control-f16-case-study-hscc/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/on-the-fly-control-f16-case-study-hscc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning-Based, Safety-Constrained Control from Scarce Data via Reciprocal Barriers</title>
+      <link>https://franckdjeumou.github.io/publication/verginis-2021-learning/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/verginis-2021-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online synthesis for runtime enforcement of safety in multi-agent systems</title>
+      <link>https://franckdjeumou.github.io/publication/raju-2021-online/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/raju-2021-online/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-The-Fly Control of Unknown Systems: From Side Information to Performance Guarantees through Reachability</title>
+      <link>https://franckdjeumou.github.io/publication/on-the-fly-control-journal/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/on-the-fly-control-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-The-Fly Control of Unknown Smooth Systems from Limited Data</title>
+      <link>https://franckdjeumou.github.io/publication/on-the-fly-control-limited-data-acc2021/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/on-the-fly-control-limited-data-acc2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blending Controllers via Multi-Objective Bandits</title>
+      <link>https://franckdjeumou.github.io/publication/gohari-2020-blending/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/gohari-2020-blending/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic Swarm Guidance Subject to Graph Temporal Logic Specifications</title>
+      <link>https://franckdjeumou.github.io/publication/probabilistic-swarm-control-conference/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/probabilistic-swarm-control-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Policy synthesis for switched linear systems with Markov decision process switching</title>
+      <link>https://franckdjeumou.github.io/publication/wu-2020-policy/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/wu-2020-policy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Safety Guarantees for Drones through Set-Based Formal Verification Methods</title>
+      <link>https://franckdjeumou.github.io/publication/thesis-supaero-2018/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/thesis-supaero-2018/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Build the quadrotor testbed for the team based on Crazyflie drones&lt;/li&gt;
+&lt;li&gt;Develop a hardware and software in the loop, Gazebo-based swarm simulator for the Crazyflie drones&lt;/li&gt;
+&lt;li&gt;Investigate safety of dynamical systems through Taylor-based methods and abstract interpretation&lt;/li&gt;
+&lt;li&gt;On-the-fly, lightweight, real-time verification (reach and safety properties) algorithms to be embedded on the Crazyflie drones&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Human-Embedded Autonomous Flight Under Formal Task Specifications</title>
+      <link>https://franckdjeumou.github.io/publication/thesis-polytechnique-2017/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/thesis-polytechnique-2017/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Design and build quadrotors based on the Snapdragon Platform with PX4 as the autopilot.&lt;/li&gt;
+&lt;li&gt;Implementation of a fast trajectory generator for quadrotors based on the minimum snap approach and a new problem modeling to improve stability and speed&lt;/li&gt;
+&lt;li&gt;Human interface with virtual reality and autonomous flight of a quadrotor via eye-tracking&lt;/li&gt;
+&lt;li&gt;Tracking of stochastically moving targets using POMDP (Partially Observable Markov Decision Process) and human input&lt;/li&gt;
+&lt;li&gt;Model checking and planning of UAVs autonomous missions with specifications written in linear temporal logic (LTL)&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

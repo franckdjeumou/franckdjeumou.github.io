@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bo Wu | Franck Djeumou</title>
+    <link>https://franckdjeumou.github.io/author/bo-wu/</link>
+      <atom:link href="https://franckdjeumou.github.io/author/bo-wu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bo Wu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Franck Djeumou</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://franckdjeumou.github.io/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_300x300_fit_lanczos_3.png</url>
+      <title>Bo Wu</title>
+      <link>https://franckdjeumou.github.io/author/bo-wu/</link>
+    </image>
+    
+    <item>
+      <title>Policy synthesis for switched linear systems with Markov decision process switching</title>
+      <link>https://franckdjeumou.github.io/publication/wu-2020-policy/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/wu-2020-policy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
