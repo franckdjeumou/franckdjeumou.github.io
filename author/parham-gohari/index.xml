@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parham Gohari | Franck Djeumou</title>
+    <link>https://franckdjeumou.github.io/author/parham-gohari/</link>
+      <atom:link href="https://franckdjeumou.github.io/author/parham-gohari/index.xml" rel="self" type="application/rss+xml" />
+    <description>Parham Gohari</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Franck Djeumou</copyright><lastBuildDate>Thu, 30 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://franckdjeumou.github.io/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_300x300_fit_lanczos_3.png</url>
+      <title>Parham Gohari</title>
+      <link>https://franckdjeumou.github.io/author/parham-gohari/</link>
+    </image>
+    
+    <item>
+      <title>Blending Controllers via Multi-Objective Bandits</title>
+      <link>https://franckdjeumou.github.io/publication/gohari-2020-blending/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/gohari-2020-blending/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

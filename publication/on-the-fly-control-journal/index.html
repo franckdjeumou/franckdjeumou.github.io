@@ -1,0 +1,1414 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=B612+Mono&family=B612:wght@400;700&family=Jura:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=B612+Mono&family=B612:wght@400;700&family=Jura:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Franck Djeumou" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="We develop DaTaReach and DaTaControl for the reachability analysis and control of systems with a priori unknown nonlinear dynamics. The resulting algorithms not only are suitable for settings with real-time requirements but also provide provable performance guarantees. To this end, they merge noisy data from only a single finite-horizon trajectory and, if available, various forms of side information (from elementary principles) on the underlying dynamics." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://franckdjeumou.github.io/publication/on-the-fly-control-journal/" />
+
+  
+  
+  
+    <meta name="theme-color" content="rgb(163, 72, 36)" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.c4bf6b519031cc5d3722987a9b91a00e.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hue890125a026c63f2721f3c5c263217e9_157891_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hue890125a026c63f2721f3c5c263217e9_157891_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://franckdjeumou.github.io/publication/on-the-fly-control-journal/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Franck Djeumou" />
+  <meta property="og:url" content="https://franckdjeumou.github.io/publication/on-the-fly-control-journal/" />
+  <meta property="og:title" content="On-The-Fly Control of Unknown Systems: From Side Information to Performance Guarantees through Reachability | Franck Djeumou" />
+  <meta property="og:description" content="We develop DaTaReach and DaTaControl for the reachability analysis and control of systems with a priori unknown nonlinear dynamics. The resulting algorithms not only are suitable for settings with real-time requirements but also provide provable performance guarantees. To this end, they merge noisy data from only a single finite-horizon trajectory and, if available, various forms of side information (from elementary principles) on the underlying dynamics." /><meta property="og:image" content="https://franckdjeumou.github.io/publication/on-the-fly-control-journal/featured.svg" />
+    <meta property="twitter:image" content="https://franckdjeumou.github.io/publication/on-the-fly-control-journal/featured.svg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-01-20T20:19:13&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-01-20T14:19:13-06:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://franckdjeumou.github.io/publication/on-the-fly-control-journal/"
+  },
+  "headline": "On-The-Fly Control of Unknown Systems: From Side Information to Performance Guarantees through Reachability",
+  
+  "image": [
+    "https://franckdjeumou.github.io/publication/on-the-fly-control-journal/featured.svg"
+  ],
+  
+  "datePublished": "2022-01-20T20:19:13Z",
+  "dateModified": "2022-01-20T14:19:13-06:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Franck Djeumou"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Franck Djeumou",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://franckdjeumou.github.io/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_192x192_fit_lanczos_3.png"
+    }
+  },
+  "description": "We develop DaTaReach and DaTaControl for the reachability analysis and control of systems with a priori unknown nonlinear dynamics. The resulting algorithms not only are suitable for settings with real-time requirements but also provide provable performance guarantees. To this end, they merge noisy data from only a single finite-horizon trajectory and, if available, various forms of side information (from elementary principles) on the underlying dynamics."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>On-The-Fly Control of Unknown Systems: From Side Information to Performance Guarantees through Reachability | Franck Djeumou</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="cc03a4fe46c2a5894583ae64202c49c6" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2da3b1fa37e894630bf6de39b1b694b3.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><div class='row align-items-center'>
+            <div class='col'>
+              <img src="/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_0x70_resize_lanczos_3.png" alt="Franck Djeumou"
+              
+              >
+            </div>
+            <div class='col'>
+              Franck Djeumou
+            </div>
+          </div></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><div class='row align-items-center'>
+          <div class='col'>
+            <img src="/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_0x70_resize_lanczos_3.png" alt="Franck Djeumou"
+            
+            >
+          </div>
+          <div class='col'>
+            Franck Djeumou
+          </div>
+        </div></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Biography</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#software"><span>Software</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+          
+          <li class="nav-item d-none d-lg-inline-flex">
+            <a class="nav-link" href="https://scholar.google.com/citations?user=5YBGZWcAAAAJ" data-toggle="tooltip" data-placement="bottom" title="Google scholar" target="_blank" rel="noopener" aria-label="Google scholar">
+              <i class="ai ai-google-scholar" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+          
+          <li class="nav-item d-none d-lg-inline-flex">
+            <a class="nav-link" href="https://www.semanticscholar.org/author/1475901145/" data-toggle="tooltip" data-placement="bottom" title="Semantic scholar" target="_blank" rel="noopener" aria-label="Semantic scholar">
+              <i class="ai ai-semantic-scholar" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+          
+          <li class="nav-item d-none d-lg-inline-flex">
+            <a class="nav-link" href="https://github.com/wuwushrek" data-toggle="tooltip" data-placement="bottom" title="My Github profile" target="_blank" rel="noopener" aria-label="My Github profile">
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+          
+          <li class="nav-item d-none d-lg-inline-flex">
+            <a class="nav-link" href="/uploads/cv.pdf" data-toggle="tooltip" data-placement="bottom" title="Download my CV"  aria-label="Download my CV">
+              <i class="ai ai-cv" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+    
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>On-The-Fly Control of Unknown Systems: From Side Information to Performance Guarantees through Reachability</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>, <span >
+      <a href="/author/abraham-p-vinod/">Abraham P Vinod</a></span>, <span >
+      <a href="/author/eric-goubault/">Eric Goubault</a></span>, <span >
+      <a href="/author/sylvie-putot/">Sylvie Putot</a></span>, <span >
+      <a href="/author/ufuk-topcu/">Ufuk Topcu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    November 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2011.05524.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/on-the-fly-control-journal/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/wuwushrek/datacontrolreach" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/abs/2011.05524" target="_blank" rel="noopener">
+    arXiv</a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 720px;">
+  <div style="position: relative">
+    
+      <img src="/publication/on-the-fly-control-journal/featured.svg" loading="lazy" width="100%" height="auto" alt="" class="featured-image article-svggifvideo">
+    
+    
+  </div>
+</div>
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">We develop data-driven algorithms for reachability analysis and control of systems with a priori unknown nonlinear dynamics. The resulting algorithms not only are suitable for settings with real-time requirements but also provide provable performance guarantees. To this end, they merge noisy data from only a single finite-horizon trajectory and, if available, various forms of side information. Such side information may include knowledge of the regularity of the dynamics, algebraic constraints on the states, monotonicity, or decoupling in the dynamics between the states. Specifically, we develop two algorithms, DaTaReach and DaTaControl, to over-approximate the reachable set and design control signals for the system on the fly. DaTaReach constructs a differential inclusion that contains the unknown dynamics. Then, in a discrete-time setting, it over-approximates the reachable set through interval Taylor-based methods applied to systems with dynamics described as differential inclusions. We provide a bound on the time step size that ensures the correctness and termination of DaTaReach. DaTaControl enables convex-optimization-based control using the computed over-approximation and the receding-horizon control framework. Besides, DaTaControl achieves near-optimal control and is suitable for real-time control of such systems. We establish a bound on its suboptimality and the number of primitive operations it requires to compute control values. Then, we theoretically show that DaTaControl achieves tighter suboptimality bounds with an increasing amount of data and richer side information. Finally, experiments on a unicycle, quadrotor, and aircraft systems demonstrate the efficacy of both algorithms over existing approaches.</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#2">
+              Journal article
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>In review  at IEEE Transactions on Automatic Control</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://franckdjeumou.github.io/"><img class="avatar mr-3 avatar-square" src="/author/franck-djeumou/avatar_hu18f3bc385f96f3434d7c762b2e088601_274474_270x270_fill_q75_lanczos_center.jpg" alt="Franck Djeumou"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://franckdjeumou.github.io/">Franck Djeumou</a></h5>
+      <h6 class="card-subtitle">Fourth-year Ph.D. student in Electrical and Computer Engineering</h6>
+      <p class="card-text">My research interests include learning with prior knowledge, safe learning, control theory, optimization, and formal methods.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=5YBGZWcAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.semanticscholar.org/author/1475901145/" target="_blank" rel="noopener">
+        <i class="ai ai-semantic-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/wuwushrek" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/franck-djeumou-626613202/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/cv.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="article-widget">
+  
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/publication/raju-2021-online/" rel="next">Online synthesis for runtime enforcement of safety in multi-agent systems</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/publication/on-the-fly-control-limited-data-acc2021/" rel="prev">On-The-Fly Control of Unknown Smooth Systems from Limited Data</a>
+  </div>
+  
+</div>
+
+</div>
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+  
+  
+    
+      
+        <div class="d-flex justify-content-center">
+          <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      <li>
+        <a href="/#contact" data-toggle="tooltip" data-placement="top" title="Send me an email"  aria-label="Send me an email">
+          <i class="fas fa-envelope" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+      <li>
+        <a href="https://scholar.google.com/citations?user=5YBGZWcAAAAJ" data-toggle="tooltip" data-placement="top" title="Google scholar" target="_blank" rel="noopener" aria-label="Google scholar">
+          <i class="ai ai-google-scholar" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+      <li>
+        <a href="https://www.semanticscholar.org/author/1475901145/" data-toggle="tooltip" data-placement="top" title="Semantic scholar" target="_blank" rel="noopener" aria-label="Semantic scholar">
+          <i class="ai ai-semantic-scholar" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+      <li>
+        <a href="https://github.com/wuwushrek" data-toggle="tooltip" data-placement="top" title="My Github profile" target="_blank" rel="noopener" aria-label="My Github profile">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/in/franck-djeumou-626613202/" data-toggle="tooltip" data-placement="top" title="Connect on LinkedIn" target="_blank" rel="noopener" aria-label="Connect on LinkedIn">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+      </ul>
+    </div>
+  
+  
+  
+
+
+
+  
+
+  
+
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    © 2022 Franck Djeumou &middot; 
+    
+    <a href="https://github.com/franckdjeumou/franckdjeumou.github.io.git" target="_blank" rel="noopener"><i class="fas fa-code-branch" style="color:#0072B2"></i></a>  &middot; 
+    
+    Made with the <a href="https://cran.r-project.org/" target="_blank" rel="noopener"><i class="fab fa-r-project"></i> </a><a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package and the 
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/gh/mermaid-js/mermaid@v8.8.4/dist/mermaid.min.js" integrity="sha512-+TNmhaRJf3jyYHTpzEq/5I6b+aGyhzWb21mGdHAjxSGSYwxN9Grug3Y3B9qVxWfKKY8MscE/6mr9walWvFLFvQ==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.7cd6ec29d281a73c92a2958a1584aadc.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>

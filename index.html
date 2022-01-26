@@ -1,0 +1,4735 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=B612+Mono&family=B612:wght@400;700&family=Jura:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=B612+Mono&family=B612:wght@400;700&family=Jura:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Franck Djeumou" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Fourth-year Ph.D. student in Electrical and Computer Engineering" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://franckdjeumou.github.io/" />
+
+  
+  
+  
+    <meta name="theme-color" content="rgb(163, 72, 36)" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.c4bf6b519031cc5d3722987a9b91a00e.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Franck Djeumou" />
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hue890125a026c63f2721f3c5c263217e9_157891_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hue890125a026c63f2721f3c5c263217e9_157891_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://franckdjeumou.github.io/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Franck Djeumou" />
+  <meta property="og:url" content="https://franckdjeumou.github.io/" />
+  <meta property="og:title" content="Franck Djeumou" />
+  <meta property="og:description" content="Fourth-year Ph.D. student in Electrical and Computer Engineering" /><meta property="og:image" content="https://franckdjeumou.github.io/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_300x300_fit_lanczos_3.png" />
+    <meta property="twitter:image" content="https://franckdjeumou.github.io/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2022-01-14T00:00:00&#43;00:00" />
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://franckdjeumou.github.io/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://franckdjeumou.github.io/"
+}
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Franck Djeumou</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   " data-wc-page-id="3976528693a0108357f4928017600865" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2da3b1fa37e894630bf6de39b1b694b3.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><div class='row align-items-center'>
+            <div class='col'>
+              <img src="/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_0x70_resize_lanczos_3.png" alt="Franck Djeumou"
+              
+              >
+            </div>
+            <div class='col'>
+              Franck Djeumou
+            </div>
+          </div></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><div class='row align-items-center'>
+          <div class='col'>
+            <img src="/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_0x70_resize_lanczos_3.png" alt="Franck Djeumou"
+            
+            >
+          </div>
+          <div class='col'>
+            Franck Djeumou
+          </div>
+        </div></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about" data-target="#about"><span>Biography</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured" data-target="#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#software" data-target="#software"><span>Software</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+          
+          <li class="nav-item d-none d-lg-inline-flex">
+            <a class="nav-link" href="https://scholar.google.com/citations?user=5YBGZWcAAAAJ" data-toggle="tooltip" data-placement="bottom" title="Google scholar" target="_blank" rel="noopener" aria-label="Google scholar">
+              <i class="ai ai-google-scholar" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+          
+          <li class="nav-item d-none d-lg-inline-flex">
+            <a class="nav-link" href="https://www.semanticscholar.org/author/1475901145/" data-toggle="tooltip" data-placement="bottom" title="Semantic scholar" target="_blank" rel="noopener" aria-label="Semantic scholar">
+              <i class="ai ai-semantic-scholar" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+          
+          <li class="nav-item d-none d-lg-inline-flex">
+            <a class="nav-link" href="https://github.com/wuwushrek" data-toggle="tooltip" data-placement="bottom" title="My Github profile" target="_blank" rel="noopener" aria-label="My Github profile">
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+          
+          <li class="nav-item d-none d-lg-inline-flex">
+            <a class="nav-link" href="/uploads/cv.pdf" data-toggle="tooltip" data-placement="bottom" title="Download my CV"  aria-label="Download my CV">
+              <i class="ai ai-cv" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+    
+  
+  
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="demo" class="home-section wg-blank  fullscreen" style="padding: 0 0 0 0;" >
+   <div class="home-section-bg " >
+     <video class="bg-video " playsinline="" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/media/mywebsitesmall.mp4" style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;"></video>
+   </div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    <!--- ![til](empty.png) -->
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="about" class="home-section wg-about  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="avatar avatar-square"
+           width="270" height="270"
+           src="/author/franck-djeumou/avatar_hu18f3bc385f96f3434d7c762b2e088601_274474_270x270_fill_q75_lanczos_center.jpg" alt="Franck Djeumou">
+      
+
+      <div class="portrait-title">
+        <h2>Franck Djeumou</h2>
+        <h3>Fourth-year Ph.D. student in Electrical and Computer Engineering</h3>
+
+        
+        <h3>
+          <a href="https://www.ece.utexas.edu/" target="_blank" rel="noopener">
+          <span>The University of Texas at Austin</span>
+          </a>
+        </h3>
+        
+        <h3>
+          <a href="https://www.ae.utexas.edu/facultysites/topcu/wiki/index.php/Main_Page" target="_blank" rel="noopener">
+          <span>Autonomous Systems Group</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="/#contact"  aria-label="envelope">
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.com/citations?user=5YBGZWcAAAAJ" target="_blank" rel="noopener" aria-label="google-scholar">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.semanticscholar.org/author/1475901145/" target="_blank" rel="noopener" aria-label="semantic-scholar">
+            <i class="ai ai-semantic-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://github.com/wuwushrek" target="_blank" rel="noopener" aria-label="github">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.linkedin.com/in/franck-djeumou-626613202/" target="_blank" rel="noopener" aria-label="linkedin">
+            <i class="fab fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="/uploads/cv.pdf"  aria-label="cv">
+            <i class="ai ai-cv big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    <h1>About me</h1>
+
+    <div class="article-style">
+      <p><strong>Welcome!</strong>  I am currently a fourth-year Ph.D. student in the <a href="https://www.ece.utexas.edu/" target="_blank" rel="noopener">Department of Electrical and Computer Engineering</a> at the University of Texas at Austin, and a member of Professor Ufuk Topcu&rsquo;s <a href="https://www.ae.utexas.edu/facultysites/topcu/wiki/index.php/Main_Page" target="_blank" rel="noopener">Autonomous Systems Group</a>. Before my graduate studies in Austin, I received my Bachelor&rsquo;s and Master&rsquo;s degrees in Aerospace Engineering from ISAE-SUPAERO, France, in 2018. I also received a Master&rsquo;s degree in Computer Science from École Polytechnique, France, in 2017.</p>
+<p><strong>Research Interests.</strong>  My research lies broadly at the intersection of learning with prior knowledge, control theory, formal methods, and optimization. Specifically, I investigate how prior knowledge (e.g., laws of Physics, properties empirically validated through engineering experiments) can be incorporated into learning agents to improve the data efficiency and generalization, and how such side information can be used for the formal verification of the agents, particularly in the context of safety-critical applications such as aircraft control and robotics.</p>
+<!--- 
+  <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="/files/cv.pdf" target="_blank">resumé</a>. -->
+
+    </div>
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <div class="section-subheading">Interests</div>
+        <ul class="ul-interests mb-0">
+          
+          <li>Data-Driven Control</li>
+          
+          <li>Data-Driven Modelling</li>
+          
+          <li>Formal Methods</li>
+          
+          <li>Optimization</li>
+          
+          <li>Reinforcement Learning</li>
+          
+          <li>Programming</li>
+          
+          <li>Tennis and Soccer</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <div class="section-subheading">Education</div>
+        <ul class="ul-edu fa-ul mb-0">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Ph.D. in Electrical and Computer Eng, Expected in 2023</p>
+              <p class="institution">The University of Texas at Austin, US</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">B.S. and M.S. in Aerospace Eng, 2018</p>
+              <p class="institution">ISAE-SUPAERO, France</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">M.S. in Computer Science, 2017</p>
+              <p class="institution">École Polytechnique, France</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Class preparatory (junior undergraduate level) in Mathematics and Physics, 2014</p>
+              <p class="institution">Lycée Fénelon, France</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="publications" class="home-section wg-pages  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Publications</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  <div class="alert alert-note">
+  <div>
+    Quickly discover relevant content by <a href="./publication/">filtering my publications</a>.
+  </div>
+</div>
+
+
+  
+
+  
+  
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="featured" class="home-section wg-featured  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Publications Overview</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>, <span >
+      <a href="/author/cyrus-neary/">Cyrus Neary</a></span>, <span >
+      <a href="/author/eric-goubault/">Eric Goubault</a></span>, <span >
+      <a href="/author/sylvie-putot/">Sylvie Putot</a></span>, <span >
+      <a href="/author/ufuk-topcu/">Ufuk Topcu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2022
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>In review at IJCAI 2022</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+    
+    
+    
+      <a href="/publication/taylor-lagrange-nodes/">
+        <div class="gifsvgvideo-feature img-hover-zoom"><img src="/publication/taylor-lagrange-nodes/featured.svg" class="article-banner" alt="Taylor-Lagrange Neural Ordinary Differential Equations: Toward Fast Training and Evaluation of Neural ODEs" loading="lazy"></div>
+      </a>
+    
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/taylor-lagrange-nodes/">Taylor-Lagrange Neural Ordinary Differential Equations: Toward Fast Training and Evaluation of Neural ODEs</a>
+  </div>
+
+  
+  <a href="/publication/taylor-lagrange-nodes/" class="summary-link">
+    <div class="article-style">
+      <p>We propose an approach to accelerate the training and integration of neural ordinary differential equations. We demonstrate that the approach enjoys integration and training times that are an order of magnitude faster than the current state-of-the-art, without any loss in accuracy.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2201.05715.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/taylor-lagrange-nodes/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wuwushrek/TayLaNets" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2201.05715" target="_blank" rel="noopener">
+    arXiv</a>
+
+
+  </div>
+  
+
+</div>
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>, <span >
+      <a href="/author/cyrus-neary/">Cyrus Neary</a></span>, <span >
+      <a href="/author/eric-goubault/">Eric Goubault</a></span>, <span >
+      <a href="/author/sylvie-putot/">Sylvie Putot</a></span>, <span >
+      <a href="/author/ufuk-topcu/">Ufuk Topcu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    December 2021
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>In review at L4DC 2022</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+  
+  
+    <a href="/publication/physics-informed-nn-architectures/">
+      <div class="gifsvgvideo-feature img-hover-zoom"> 
+        <video class="article-banner" playsinline="" loading="lazy" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/publication/physics-informed-nn-architectures/featured.mp4" style="width: 100%; height: auto; object-position: center center; opacity: 1;">
+        </video>
+      </div>
+    </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/physics-informed-nn-architectures/">Neural Networks with Physics-Informed Architectures and Constraints for Dynamical Systems Modeling</a>
+  </div>
+
+  
+  <a href="/publication/physics-informed-nn-architectures/" class="summary-link">
+    <div class="article-style">
+      <p>Effective inclusion of physics-based knowledge into deep neural network models of dynamical systems can greatly improve data efficiency and generalization. We develop a framework to train dynamics models while incorporating a priori system knowledge as inductive bias. The proposed approach learns to predict the system dynamics two orders of magnitude more accurately than a baseline approach that does not include prior knowledge, given the same training dataset.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2109.06407.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/physics-informed-nn-architectures/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wuwushrek/physics_constrained_nn" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2109.06407" target="_blank" rel="noopener">
+    arXiv</a>
+
+
+  </div>
+  
+
+</div>
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>, <span >
+      <a href="/author/ufuk-topcu/">Ufuk Topcu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    December 2021
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>In review at L4DC 2022</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+  
+  
+    <a href="/publication/learning-to-control-one-trial/">
+      <div class="gifsvgvideo-feature img-hover-zoom"> 
+        <video class="article-banner" playsinline="" loading="lazy" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/publication/learning-to-control-one-trial/featured.mp4" style="width: 100%; height: auto; object-position: center center; opacity: 1;">
+        </video>
+      </div>
+    </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/learning-to-control-one-trial/">Learning to Reach, Swim, Walk and Fly in One Trial: Data-Driven Control with Scarce Data and Side Information</a>
+  </div>
+
+  
+  <a href="/publication/learning-to-control-one-trial/" class="summary-link">
+    <div class="article-style">
+      <p>We develop a learning-based control algorithm with performance guarantees under streaming and noisy data only from a single and ongoing trial. Despite the scarcity of data, we show that the algorithm can provide performance comparable to reinforcement learning algorithms trained over millions of environment interactions, while outperforming existing techniques combining system identification and model predictive control.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2106.10533.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/learning-to-control-one-trial/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wuwushrek/datacontrolreach" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2106.10533" target="_blank" rel="noopener">
+    arXiv</a>
+
+
+  </div>
+  
+
+</div>
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>, <span >
+      <a href="/author/murat-cubuktepe/">Murat Cubuktepe</a></span>, <span >
+      <a href="/author/craig-lennon/">Craig Lennon</a></span>, <span >
+      <a href="/author/ufuk-topcu/">Ufuk Topcu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    December 2021
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>In review at ICAPS 2022</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+  
+  
+    <a href="/publication/task-guided-irl-pomdps/">
+      <div class="gifsvgvideo-feature img-hover-zoom"> 
+        <video class="article-banner" playsinline="" loading="lazy" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/publication/task-guided-irl-pomdps/featured.mp4" style="width: 100%; height: auto; object-position: center center; opacity: 1;">
+        </video>
+      </div>
+    </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/task-guided-irl-pomdps/">Task-Guided Inverse Reinforcement Learning Under Partial Information</a>
+  </div>
+
+  
+  <a href="/publication/task-guided-irl-pomdps/" class="summary-link">
+    <div class="article-style">
+      <p>We develop an algorithm for inverse reinforcement learning (IRL) in POMDPs that can incorporate high-level task specifications in the learning process. The algorithm significantly improves the scalability of existing IRL in POMDPs techniques due to our efficient approach to find optimal policies on POMDPs. Further, by leveraging the side information, we show that our algorithm has improved data-efficiency over existing approaches.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2105.14073.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/task-guided-irl-pomdps/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wuwushrek/MCE_IRL_POMDPS" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2105.14073" target="_blank" rel="noopener">
+    arXiv</a>
+
+
+  </div>
+  
+
+</div>
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>, <span >
+      <a href="/author/zhe-xu/">Zhe Xu</a></span>, <span >
+      <a href="/author/murat-cubuktepe/">Murat Cubuktepe</a></span>, <span >
+      <a href="/author/ufuk-topcu/">Ufuk Topcu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    August 2021
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Conditionally accepted at IEEE Transactions on Automatic Control</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+  
+  
+    <a href="/publication/probablistic-swarm-control-journal/">
+      <div class="gifsvgvideo-feature img-hover-zoom"> 
+        <video class="article-banner" playsinline="" loading="lazy" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/publication/probablistic-swarm-control-journal/featured.mp4" style="width: 100%; height: auto; object-position: center center; opacity: 1;">
+        </video>
+      </div>
+    </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/probablistic-swarm-control-journal/">Probabilistic control of heterogeneous swarms subject to graph temporal logic specifications: A decentralized and scalable approach</a>
+  </div>
+
+  
+  <a href="/publication/probablistic-swarm-control-journal/" class="summary-link">
+    <div class="article-style">
+      <p>We develop a probabilistic control algorithm, GTLProCo, for swarms of agents with heterogeneous dynamics and objectives, subject to high-level task specifications. The resulting algorithm, agnostic to the number of agents comprising the swarm, not only achieves decentralized control of the swarm but also significantly improves scalability over state-of-the-art existing algorithms.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2106.15729.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/probablistic-swarm-control-journal/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wuwushrek/GTLProCo" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2106.15729" target="_blank" rel="noopener">
+    arXiv</a>
+
+
+  </div>
+  
+
+</div>
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/christos-k-verginis/">Christos K Verginis</a></span>, <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>, <span >
+      <a href="/author/ufuk-topcu/">Ufuk Topcu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 2021
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>In review at IEEE Transactions on Automatic Control</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+    
+    
+    
+      <a href="/publication/verginis-2021-safety/">
+        <div class="gifsvgvideo-feature img-hover-zoom"><img src="/publication/verginis-2021-safety/featured.svg" class="article-banner" alt="Safety-Constrained Learning and Control using Scarce Data and Reciprocal Barriers" loading="lazy"></div>
+      </a>
+    
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/verginis-2021-safety/">Safety-Constrained Learning and Control using Scarce Data and Reciprocal Barriers</a>
+  </div>
+
+  
+  <a href="/publication/verginis-2021-safety/" class="summary-link">
+    <div class="article-style">
+      <p>We develop a control algorithm that ensures the safety, in terms of confinement in a set, of a system with unknown, 2nd-order nonlinear dynamics. The algorithm removes a series of standard, limiting assumptions considered in the related literature since it does not require global boundedness, growth conditions, or a priori approximations of the unknown dynamics’ terms.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2105.06526.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/verginis-2021-safety/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2105.06526" target="_blank" rel="noopener">
+    arXiv</a>
+
+
+  </div>
+  
+
+</div>
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>, <span >
+      <a href="/author/aditya-zutshi/">Aditya Zutshi</a></span>, <span >
+      <a href="/author/ufuk-topcu/">Ufuk Topcu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    March 2021
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Proceedings of the 24th International Conference on Hybrid Systems: Computation and Control</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+  
+  
+    <a href="/publication/on-the-fly-control-f16-case-study-hscc/">
+      <div class="gifsvgvideo-feature img-hover-zoom"> 
+        <video class="article-banner" playsinline="" loading="lazy" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/publication/on-the-fly-control-f16-case-study-hscc/featured.mp4" style="width: 100%; height: auto; object-position: center center; opacity: 1;">
+        </video>
+      </div>
+    </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/on-the-fly-control-f16-case-study-hscc/">On-the-fly, data-driven reachability analysis and control of unknown systems: an F-16 aircraft case study</a>
+  </div>
+
+  
+  <a href="/publication/on-the-fly-control-f16-case-study-hscc/" class="summary-link">
+    <div class="article-style">
+      <p>We provide a case study for DaTaReach and DaTaControl, algorithms for reachability analysis and control of systems with a priori unknown nonlinear dynamics. In a scenario involving an F-16 aircraft diving towards the ground from low altitude and high downward pitch angle, we show how DaTaControl prevents a ground collision using only the measurements obtained during the dive and elementary laws of physics as side information.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/abs/10.1145/3447928.3457355" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/on-the-fly-control-f16-case-study-hscc/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/GaloisInc/csaf/blob/ofc_new/notebooks/f16-ofc-demo.ipynb" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/uploads/poster_hscc.pdf" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/abs/10.1145/3447928.3457355" target="_blank" rel="noopener">
+    HSCC 21</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://hscc.acm.org/2021/awards/" target="_blank" rel="noopener">
+    <span class="award">Winner: Best Demo/Poster Award</span></a>
+
+
+  </div>
+  
+
+</div>
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/christos-k-verginis/">Christos K Verginis</a></span>, <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>, <span >
+      <a href="/author/ufuk-topcu/">Ufuk Topcu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    March 2021
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>IEEE Conference on Decision and Control 2021</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+    
+    
+    
+      <a href="/publication/verginis-2021-learning/">
+        <div class="gifsvgvideo-feature img-hover-zoom"><img src="/publication/verginis-2021-learning/featured.svg" class="article-banner" alt="Learning-Based, Safety-Constrained Control from Scarce Data via Reciprocal Barriers" loading="lazy"></div>
+      </a>
+    
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/verginis-2021-learning/">Learning-Based, Safety-Constrained Control from Scarce Data via Reciprocal Barriers</a>
+  </div>
+
+  
+  <a href="/publication/verginis-2021-learning/" class="summary-link">
+    <div class="article-style">
+      <p>We develop a control algorithm for the safety of a control-affine  system with unknown nonlinear dynamics in the sense of confinement in a given safe set. The algorithm leverages robust nonlinear feedback control laws integrated with on-the-fly, data-driven approximations to output a control signal that guarantees  the boundedness of the closed-loop system in the given set.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://cverginis.github.io/publications/conferences/CDC21_safety.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/verginis-2021-learning/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://css.paperplaza.net/conferences/conferences/CDC21/program/CDC21_ContentListWeb_1.html#moa03_02" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2105.06526" target="_blank" rel="noopener">
+    arXiv</a>
+
+
+  </div>
+  
+
+</div>
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/dhananjay-raju/">Dhananjay Raju</a></span>, <span >
+      <a href="/author/sudarshanan-bharadwaj/">Sudarshanan Bharadwaj</a></span>, <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>, <span >
+      <a href="/author/ufuk-topcu/">Ufuk Topcu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    December 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>IEEE Transactions on Control of Network Systems</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+  
+  
+    <a href="/publication/raju-2021-online/">
+      <div class="gifsvgvideo-feature img-hover-zoom"> 
+        <video class="article-banner" playsinline="" loading="lazy" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/publication/raju-2021-online/featured.mp4" style="width: 100%; height: auto; object-position: center center; opacity: 1;">
+        </video>
+      </div>
+    </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/raju-2021-online/">Online synthesis for runtime enforcement of safety in multi-agent systems</a>
+  </div>
+
+  
+  <a href="/publication/raju-2021-online/" class="summary-link">
+    <div class="article-style">
+      <p>A shield is attached to a system to guarantee safety by correcting the system&rsquo;s behavior at runtime. Existing methods that employ design-time synthesis of shields do not scale to multi-agent systems. Moreover, such shields are typically implemented in a centralized manner, requiring global information on the state of all agents in the system. We address these limitations through a new approach where the shields are synthesized at runtime and do not require global information. There is a shield onboard every agent, which can only modify the behavior of the corresponding agent. In this approach, which is fundamentally decentralized, the shield on every agent has two components: a pathfinder that corrects the behavior of the agent and an ordering mechanism that dynamically modifies the priority of the agent. The current priority determines if the shield uses the pathfinder to modify behavior of the agent. We derive an upper bound on the maximum deviation for any agent from its original behavior. We prove that the worst-case synthesis time is quadratic in the number of agents at runtime as opposed to exponential at design-time for existing methods. We test the performance of the decentralized, runtime shield synthesis approach on a collision-avoidance problem. For 50 agents in a 50x50 grid, the synthesis at runtime requires a few seconds per agent whenever a potential collision is detected. In contrast, the centralized design-time synthesis of shields for a similar setting is intractable beyond 4 agents in a 5x5 grid.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ieeexplore.ieee.org/abstract/document/9362272" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/raju-2021-online/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://tinyurl.com/yhdddpm6" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1910.10380" target="_blank" rel="noopener">
+    arXiv</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ieeexplore.ieee.org/abstract/document/9362272" target="_blank" rel="noopener">
+    IEEE TCNS</a>
+
+
+  </div>
+  
+
+</div>
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>, <span >
+      <a href="/author/abraham-p-vinod/">Abraham P Vinod</a></span>, <span >
+      <a href="/author/eric-goubault/">Eric Goubault</a></span>, <span >
+      <a href="/author/sylvie-putot/">Sylvie Putot</a></span>, <span >
+      <a href="/author/ufuk-topcu/">Ufuk Topcu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    November 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>In review  at IEEE Transactions on Automatic Control</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+    
+    
+    
+      <a href="/publication/on-the-fly-control-journal/">
+        <div class="gifsvgvideo-feature img-hover-zoom"><img src="/publication/on-the-fly-control-journal/featured.svg" class="article-banner" alt="On-The-Fly Control of Unknown Systems: From Side Information to Performance Guarantees through Reachability" loading="lazy"></div>
+      </a>
+    
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/on-the-fly-control-journal/">On-The-Fly Control of Unknown Systems: From Side Information to Performance Guarantees through Reachability</a>
+  </div>
+
+  
+  <a href="/publication/on-the-fly-control-journal/" class="summary-link">
+    <div class="article-style">
+      <p>We develop DaTaReach and DaTaControl for the reachability analysis and control of systems with a priori unknown nonlinear dynamics. The resulting algorithms not only are suitable for settings with real-time requirements but also provide provable performance guarantees. To this end, they merge noisy data from only a single finite-horizon trajectory and, if available, various forms of side information (from elementary principles) on the underlying dynamics.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2011.05524.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/on-the-fly-control-journal/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wuwushrek/datacontrolreach" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2011.05524" target="_blank" rel="noopener">
+    arXiv</a>
+
+
+  </div>
+  
+
+</div>
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>, <span >
+      <a href="/author/abraham-p.-vinod/">Abraham P. Vinod</a></span>, <span >
+      <a href="/author/eric-goubault/">Eric Goubault</a></span>, <span >
+      <a href="/author/sylvie-putot/">Sylvie Putot</a></span>, <span >
+      <a href="/author/ufuk-topcu/">Ufuk Topcu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>2021 American Control Conference (ACC)</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+    
+    
+    
+      <a href="/publication/on-the-fly-control-limited-data-acc2021/">
+        <div class="gifsvgvideo-feature img-hover-zoom"><img src="/publication/on-the-fly-control-limited-data-acc2021/featured.svg" class="article-banner" alt="On-The-Fly Control of Unknown Smooth Systems from Limited Data" loading="lazy"></div>
+      </a>
+    
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/on-the-fly-control-limited-data-acc2021/">On-The-Fly Control of Unknown Smooth Systems from Limited Data</a>
+  </div>
+
+  
+  <a href="/publication/on-the-fly-control-limited-data-acc2021/" class="summary-link">
+    <div class="article-style">
+      <p>We develop two data-driven algorithms, DaTaReach and DaTaControl, for the on-the-fly over-approximation of the reachable set and constrained near-optimal control of systems with unknown dynamics. These algorithms are suitable for scenarios with severely limited data by leveraging various forms of side information on the underlying unknown dynamics.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2009.12733.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/on-the-fly-control-limited-data-acc2021/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/u-t-autonomous/ACC2021_DaTaReach_DaTaControl" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/uploads/On-The-Fly_Control_Scarce_Data_ACC_2021_Presentation.pptx" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2009.12733" target="_blank" rel="noopener">
+    arXiv</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ieeexplore.ieee.org/document/9483367" target="_blank" rel="noopener">
+    IEEE</a>
+
+
+  </div>
+  
+
+</div>
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/parham-gohari/">Parham Gohari</a></span>, <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>, <span >
+      <a href="/author/abraham-p-vinod/">Abraham P Vinod</a></span>, <span >
+      <a href="/author/ufuk-topcu/">Ufuk Topcu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    July 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>arXiv preprint</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+    
+    
+    
+      
+      
+      <a href="/publication/gohari-2020-blending/">
+        <div class="img-hover-zoom"><img src="/publication/gohari-2020-blending/featured_hua1ab6b8a68f110104683e5185541c87e_186641_808x455_fill_lanczos_smart1_3.png" class="article-banner" alt="Blending Controllers via Multi-Objective Bandits" loading="lazy"></div>
+      </a>
+    
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/gohari-2020-blending/">Blending Controllers via Multi-Objective Bandits</a>
+  </div>
+
+  
+  <a href="/publication/gohari-2020-blending/" class="summary-link">
+    <div class="article-style">
+      <p>Safety and performance are often two competing objectives in sequential decision-making problems. Our goal is to blend a performant and a safe controller to generate a single controller that is safer than the performant and accumulates higher rewards than the safe controller. To this end, we propose a blending algorithm using the framework of contextual multi-armed multi-objective bandits.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2007.15755.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/gohari-2020-blending/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/parhamgohari/blending-controllers" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2007.15755" target="_blank" rel="noopener">
+    arXiv</a>
+
+
+  </div>
+  
+
+</div>
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>, <span >
+      <a href="/author/zhe-xu/">Zhe Xu</a></span>, <span >
+      <a href="/author/ufuk-topcu/">Ufuk Topcu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    March 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Robotics: Science and Systems (RSS 2020)</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+  
+  
+    <a href="/publication/probabilistic-swarm-control-conference/">
+      <div class="gifsvgvideo-feature img-hover-zoom"> 
+        <video class="article-banner" playsinline="" loading="lazy" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/publication/probabilistic-swarm-control-conference/featured.mp4" style="width: 100%; height: auto; object-position: center center; opacity: 1;">
+        </video>
+      </div>
+    </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/probabilistic-swarm-control-conference/">Probabilistic Swarm Guidance Subject to Graph Temporal Logic Specifications</a>
+  </div>
+
+  
+  <a href="/publication/probabilistic-swarm-control-conference/" class="summary-link">
+    <div class="article-style">
+      <p>As the number of agents comprising a swarm increases, individual-agent-based control techniques for collective task completion become computationally intractable. Instead, we develop an algorithm, agnostic to the size of the swarm, to control, in a decentralized and probabilistic manner, a collective property of the swarm: its density distribution constrained with high-level task specifications expressed in temporal logic.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://www.roboticsproceedings.org/rss16/p058.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/probabilistic-swarm-control-conference/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wuwushrek/GTLProCo" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://tinyurl.com/433z8f9p" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://www.roboticsproceedings.org/rss16/p058.pdf" target="_blank" rel="noopener">
+    RSS 2020</a>
+
+
+  </div>
+  
+
+</div>
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/bo-wu/">Bo Wu</a></span>, <span >
+      <a href="/author/murat-cubuktepe/">Murat Cubuktepe</a></span>, <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>, <span >
+      <a href="/author/zhe-xu/">Zhe Xu</a></span>, <span >
+      <a href="/author/ufuk-topcu/">Ufuk Topcu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Accepted at IEEE Transactions on Automatic Control</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+    
+    
+    
+      <a href="/publication/wu-2020-policy/">
+        <div class="gifsvgvideo-feature img-hover-zoom"><img src="/publication/wu-2020-policy/featured.svg" class="article-banner" alt="Policy synthesis for switched linear systems with Markov decision process switching" loading="lazy"></div>
+      </a>
+    
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/wu-2020-policy/">Policy synthesis for switched linear systems with Markov decision process switching</a>
+  </div>
+
+  
+  <a href="/publication/wu-2020-policy/" class="summary-link">
+    <div class="article-style">
+      <p>We study the synthesis of mode switching protocols for a class of discrete-time switched linear systems in which the mode jumps are governed by Markov decision processes (MDPs). We propose efficient convex optimization-based formulations to find stabilizing policy in the MDP.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2001.00835.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/wu-2020-policy/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2009.12733" target="_blank" rel="noopener">
+    arXiv</a>
+
+
+  </div>
+  
+
+</div>
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    August 2018
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Master Thesis Report at ISAE-SUPAERO 2018
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+    
+    
+    
+      <a href="/publication/thesis-supaero-2018/">
+        <div class="gifsvgvideo-feature img-hover-zoom"><img src="/publication/thesis-supaero-2018/featured.gif" class="article-banner" alt="Safety Guarantees for Drones through Set-Based Formal Verification Methods" loading="lazy"></div>
+      </a>
+    
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/thesis-supaero-2018/">Safety Guarantees for Drones through Set-Based Formal Verification Methods</a>
+  </div>
+
+  
+  <a href="/publication/thesis-supaero-2018/" class="summary-link">
+    <div class="article-style">
+      <p>We investigate approaches and algorithms for both offline and on-the-fly verification of low-level drone control algorithms. Specifically, we seek to verify that low-level control algorithms for drones satisfy performance requirements desired during the conception of the system. To this end, we perform an in depth analysis of quadrotor dynamics and its uncertainties. Then, we build on Taylor-based methods to estimate the reachable sets of the systems, which are then exploited to verify if the system could reach unsafe states. The results obtained during this master thesis are as follows: (a) We develop a hardware and software in the loop, Gazebo-based swarm simulator for the Crazyflie drones, (b) We leverage the Crazyflie simulator to investigate safety of dynamical systems through Taylor-based methods and abstract interpretation. Specifically, We investigate on-the-fly, lightweight, real-time verification (reach and safety properties) algorithms to be embedded on the Crazyflie drones.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/uploads/master-isae.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wuwushrek/sim_cf" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/uploads/master-isae.pdf" >
+    Report (in French)</a>
+
+
+  </div>
+  
+
+</div>
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/franck-djeumou/">Franck Djeumou</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2017
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Master Thesis Report at École Polytechnique 2017
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  
+  
+  
+    <a href="/publication/thesis-polytechnique-2017/">
+      <div class="gifsvgvideo-feature img-hover-zoom"> 
+        <video class="article-banner" playsinline="" loading="lazy" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/publication/thesis-polytechnique-2017/featured.mp4" style="width: 100%; height: auto; object-position: center center; opacity: 1;">
+        </video>
+      </div>
+    </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/thesis-polytechnique-2017/">Human-Embedded Autonomous Flight Under Formal Task Specifications</a>
+  </div>
+
+  
+  <a href="/publication/thesis-polytechnique-2017/" class="summary-link">
+    <div class="article-style">
+      <p>We investigate Quadcopter autonomous navigation under formal task specifications in static or dynamic environments using correct-by-construction controllers</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/uploads/master-polytechnique.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/u-t-autonomous/PX4_ROS_packages/tree/v2.0_08_2017" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/watch?v=AfosHcUJR9M" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+  </div>
+  
+
+</div>
+    
+  
+
+  
+  
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="software" class="home-section wg-blank  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Open-Source Software</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12 col-lg-8">
+    <div class="project-card project-item">
+  <div class="card-simple-software">
+    <a href="/publication/thesis-supaero-2018/" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/publication/thesis-supaero-2018/featured.gif" alt="Crazyflie Simulation" loading="lazy">
+    </a>
+    <div class="card-text">
+      <h4><a href="/publication/thesis-supaero-2018/" target="_blank" rel="noopener">SITL and HITL Gazebo Simulation for Crazyflie Drone</a></h4>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=sim_cf&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wuwushrek/sim_cf?style=for-the-badge">
+        </div>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=sim_cf&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wuwushrek/sim_cf?style=for-the-badge">
+        </div>
+    </div>
+  </div>
+  <div class="card-simple-software">
+    <a href="/publication/thesis-supaero-2018/" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/media/crazyflie-firmware.jpg" alt="Crazyflie Autopilot with HITL Capabilities" loading="lazy">
+    </a>
+    <div class="card-text">
+      <h4><a href="/publication/thesis-supaero-2018/" target="_blank" rel="noopener">Autopilot Crazyflie with HITL Capabilities</a></h4>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=crazyflie-firmware&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wuwushrek/crazyflie-firmware?style=for-the-badge">
+        </div>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=crazyflie-firmware&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wuwushrek/crazyflie-firmware?style=for-the-badge">
+        </div>
+    </div>
+  </div>
+  <div class="card-simple-software">
+    <a href="/publication/physics-informed-nn-architectures/" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/media/physics-informed-anim.gif" alt="Physics Constrained Learning" loading="lazy">
+    </a>
+    <div class="card-text">
+      <h4><a href="/publication/physics-informed-nn-architectures/" target="_blank" rel="noopener">Neural Network with Physics-Constrained Architectures</a></h4>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=physics_constrained_nn&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wuwushrek/physics_constrained_nn?style=for-the-badge">
+        </div>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=physics_constrained_nn&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wuwushrek/physics_constrained_nn?style=for-the-badge">
+        </div>
+    </div>
+  </div>
+  <div class="card-simple-software">
+    <a href="https://github.com/cosynus-lix/RINO#acknowledgments" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/media/RINO2.jpg" alt="RINO Software" loading="lazy">
+    </a>
+    <div class="card-text">
+      <h4><a href="https://github.com/cosynus-lix/RINO#acknowledgments" target="_blank" rel="noopener">[Internship Contribution] Robust Inner and Outer Reachability</a></h4>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=cosynus-lix&repo=RINO&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/cosynus-lix/RINO?style=for-the-badge">
+        </div>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=cosynus-lix&repo=RINO&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/cosynus-lix/RINO?style=for-the-badge">
+        </div>
+    </div>
+  </div>
+  <div class="card-simple-software">
+    <a href="https://github.com/wuwushrek/AirSim" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/media/airsim.png" alt="AirSim" loading="lazy">
+    </a>
+    <div class="card-text">
+      <h4><a href="https://github.com/saihv/AirSimMulti/issues/2" target="_blank" rel="noopener">AirSim Enhanced with Multiple Vehicules Capabilities</a></h4>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=AirSim&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wuwushrek/AirSim?style=for-the-badge">
+        </div>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=AirSim&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wuwushrek/AirSim?style=for-the-badge">
+        </div>
+    </div>
+  </div>
+  <div class="card-simple-software">
+    <a href="/publication/thesis-polytechnique-2017/" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <video src="/publication/thesis-polytechnique-2017/featured.mp4" playsinline="" loading="lazy" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" style="width: 100%; height: auto; object-position: center center; opacity: 1;" loading="lazy"> </video>
+    </a>
+    <div class="card-text">
+      <h4><a href="https://github.com/u-t-autonomous/PX4_ROS_packages/tree/v2.0_08_2017" target="_blank" rel="noopener">A ROS Package for PX4 Simulation on Gazebo, AirSIM, and Snapdragon</a></h4>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=u-t-autonomous&repo=PX4_ROS_packages&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/u-t-autonomous/PX4_ROS_packages?style=for-the-badge">
+        </div>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=u-t-autonomous&repo=PX4_ROS_packages&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/u-t-autonomous/PX4_ROS_packages?style=for-the-badge">
+        </div>
+    </div>
+  </div>
+  <div class="card-simple-software">
+    <a href="/publication/task-guided-irl-pomdps/" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/media/task-guided-img.gif" alt="Task-Guided IRL on POMDPs" loading="lazy">
+    </a>
+    <div class="card-text">
+      <h4><a href="/publication/task-guided-irl-pomdps/" target="_blank" rel="noopener">Task-Guided Inverse Reinforcement Learning in POMDPs</a></h4>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=MCE_IRL_POMDPS&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wuwushrek/MCE_IRL_POMDPS?style=for-the-badge">
+        </div>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=MCE_IRL_POMDPS&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wuwushrek/MCE_IRL_POMDPS?style=for-the-badge">
+        </div>
+    </div>
+  </div>
+  <div class="card-simple-software">
+    <a href="/publication/taylor-lagrange-nodes/" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/media/tayla-img.svg" alt="TL-NODE" loading="lazy">
+    </a>
+    <div class="card-text">
+      <h4><a href="/publication/taylor-lagrange-nodes/" target="_blank" rel="noopener">Toward Fast Training of Neural Ordinary Differential Equations</a></h4>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=TayLaNets&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wuwushrek/TayLaNets?style=for-the-badge">
+        </div>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=TayLaNets&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wuwushrek/TayLaNets?style=for-the-badge">
+        </div>
+    </div>
+  </div>
+  <div class="card-simple-software">
+    <a href="/publication/learning-to-control-one-trial/" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <video src="/publication/on-the-fly-control-f16-case-study-hscc/featured.mp4" playsinline="" loading="lazy" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" style="width: 100%; height: auto; object-position: center center; opacity: 1;" loading="lazy"> </video>
+    </a>
+    <div class="card-text">
+      <h4><a href="/publication/learning-to-control-one-trial/" target="_blank" rel="noopener">Learning How to Reach, Swim, Walk, and Fly in One Trial</a></h4>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=datacontrolreach&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wuwushrek/datacontrolreach?style=for-the-badge">
+        </div>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=datacontrolreach&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wuwushrek/datacontrolreach?style=for-the-badge">
+        </div>
+    </div>
+  </div>
+  <div class="card-simple-software">
+    <a href="/publication/probabilistic-swarm-control-conference/" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <video src="/publication/probabilistic-swarm-control-conference/featured.mp4" playsinline="" loading="lazy" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" style="width: 100%; height: auto; object-position: center center; opacity: 1;" loading="lazy"> </video>
+    </a>
+    <div class="card-text">
+      <h4><a href="/publication/probabilistic-swarm-control-conference/" target="_blank" rel="noopener">Probabilistic Swarm Control Under Temporal Logic Specifications</a></h4>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=GTLProCo&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wuwushrek/GTLProCo?style=for-the-badge">
+        </div>
+        <div class="f-row">
+          <iframe src="https://ghbtns.com/github-btn.html?user=wuwushrek&repo=GTLProCo&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170px" height="30px" title="GitHub"></iframe>
+          <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wuwushrek/GTLProCo?style=for-the-badge">
+        </div>
+    </div>
+  </div>
+</div>
+<!-- Place this tag where you want the button to render. <img src="https://github-readme-stats.vercel.app/api?username=wuwushrek&show_icons=true&theme=dark" width="400"> --> 
+<div class="github-stats">
+  <h2 align="center" > My Github Statistics
+    <p align="center"> <img src="https://komarev.com/ghpvc/?username=wuwushrek" alt="wuwushrek"/></p>
+    <img src="https://raw.githubusercontent.com/wuwushrek/wuwushrek/main/github-metrics.svg" width="100%">
+  </h2>
+</div>
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="contact" class="home-section wg-contact  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Contact</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+
+    
+    
+      
+      
+      
+    
+
+    <div class="mb-3">
+      <form name="contact" method="POST" action="https://formspree.io/f/xeqnewgq"  data-netlify-recaptcha="true" >
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Message</label>
+          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
+        </div>
+        
+        <div class="d-none">
+          <label>Do not fill this field unless you are a bot: <input name="_gotcha"></label>
+        </div>
+        
+        <button type="submit" class="btn btn-primary px-3 py-2 w-100">Send</button>
+      </form>
+    </div>
+  
+
+  <ul class="fa-ul">
+
+    
+    <li>
+      <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+      <span id="person-email"><a href="mailto:fdjeumou@utexas.edu">fdjeumou@utexas.edu</a></span>
+    </li>
+    
+
+    
+
+    
+    
+      
+      <li>
+        <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+        <span id="person-address">201 East 24th Street, Austin, Texas 78712-1229</span>
+      </li>
+    
+
+    
+    <li>
+      <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
+      <span>POB 5.204</span>
+    </li>
+    
+
+    
+
+    
+
+    
+    
+
+  </ul>
+
+  
+  <div class="d-none">
+    <input id="map-provider" value="mapnik">
+    <input id="map-lat" value="30.287060857829083">
+    <input id="map-lng" value="-97.73656957312522">
+    <input id="map-dir" value="201 East 24th Street, Austin, Texas 78712-1229">
+    <input id="map-zoom" value="15">
+    <input id="map-api-key" value="">
+  </div>
+  <div id="map"></div>
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+  
+  
+    
+      
+        <div class="d-flex justify-content-center">
+          <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      <li>
+        <a href="/#contact" data-toggle="tooltip" data-placement="top" title="Send me an email"  aria-label="Send me an email">
+          <i class="fas fa-envelope" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+      <li>
+        <a href="https://scholar.google.com/citations?user=5YBGZWcAAAAJ" data-toggle="tooltip" data-placement="top" title="Google scholar" target="_blank" rel="noopener" aria-label="Google scholar">
+          <i class="ai ai-google-scholar" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+      <li>
+        <a href="https://www.semanticscholar.org/author/1475901145/" data-toggle="tooltip" data-placement="top" title="Semantic scholar" target="_blank" rel="noopener" aria-label="Semantic scholar">
+          <i class="ai ai-semantic-scholar" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+      <li>
+        <a href="https://github.com/wuwushrek" data-toggle="tooltip" data-placement="top" title="My Github profile" target="_blank" rel="noopener" aria-label="My Github profile">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/in/franck-djeumou-626613202/" data-toggle="tooltip" data-placement="top" title="Connect on LinkedIn" target="_blank" rel="noopener" aria-label="Connect on LinkedIn">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+      </ul>
+    </div>
+  
+  
+  
+
+
+
+  
+
+  
+
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    © 2022 Franck Djeumou &middot; 
+    
+    <a href="https://github.com/franckdjeumou/franckdjeumou.github.io.git" target="_blank" rel="noopener"><i class="fas fa-code-branch" style="color:#0072B2"></i></a>  &middot; 
+    
+    Made with the <a href="https://cran.r-project.org/" target="_blank" rel="noopener"><i class="fab fa-r-project"></i> </a><a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package and the 
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/gh/mermaid-js/mermaid@v8.8.4/dist/mermaid.min.js" integrity="sha512-+TNmhaRJf3jyYHTpzEq/5I6b+aGyhzWb21mGdHAjxSGSYwxN9Grug3Y3B9qVxWfKKY8MscE/6mr9walWvFLFvQ==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.7cd6ec29d281a73c92a2958a1584aadc.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>
