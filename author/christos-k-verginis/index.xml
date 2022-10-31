@@ -5,7 +5,7 @@
     <link>https://franckdjeumou.github.io/author/christos-k-verginis/</link>
       <atom:link href="https://franckdjeumou.github.io/author/christos-k-verginis/index.xml" rel="self" type="application/rss+xml" />
     <description>Christos K Verginis</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Franck Djeumou</copyright><lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Franck Djeumou</copyright><lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://franckdjeumou.github.io/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_300x300_fit_lanczos_3.png</url>
       <title>Christos K Verginis</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Safety-Constrained Learning and Control using Scarce Data and Reciprocal Barriers</title>
-      <link>https://franckdjeumou.github.io/publication/verginis-2021-safety/</link>
-      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://franckdjeumou.github.io/publication/verginis-2021-safety/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Learning-Based, Safety-Constrained Control from Scarce Data via Reciprocal Barriers</title>
       <link>https://franckdjeumou.github.io/publication/verginis-2021-learning/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
       <guid>https://franckdjeumou.github.io/publication/verginis-2021-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Safety-Constrained Learning and Control using Scarce Data and Reciprocal Barriers</title>
+      <link>https://franckdjeumou.github.io/publication/verginis-2021-safety/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/verginis-2021-safety/</guid>
       <description></description>
     </item>
     
