@@ -5,12 +5,20 @@
     <link>https://franckdjeumou.github.io/</link>
       <atom:link href="https://franckdjeumou.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Franck Djeumou</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Franck Djeumou</copyright><lastBuildDate>Sun, 18 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Franck Djeumou</copyright><lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://franckdjeumou.github.io/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_300x300_fit_lanczos_3.png</url>
       <title>Franck Djeumou</title>
       <link>https://franckdjeumou.github.io/</link>
     </image>
+    
+    <item>
+      <title>How to Learn and Generalize From Three Minutes of Data: Physics-Constrained and Uncertainty-Aware Neural Stochastic Differential Equations</title>
+      <link>https://franckdjeumou.github.io/publication/neural-sde-models/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/neural-sde-models/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Autonomous Drifting with 3 Minutes of Data via Learned Tire Models</title>
