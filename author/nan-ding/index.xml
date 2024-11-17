@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nan Ding | Franck Djeumou</title>
+    <link>https://franckdjeumou.github.io/author/nan-ding/</link>
+      <atom:link href="https://franckdjeumou.github.io/author/nan-ding/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nan Ding</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Franck Djeumou</copyright><lastBuildDate>Sun, 16 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://franckdjeumou.github.io/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_300x300_fit_lanczos_3.png</url>
+      <title>Nan Ding</title>
+      <link>https://franckdjeumou.github.io/author/nan-ding/</link>
+    </image>
+    
+    <item>
+      <title>One Model to Drift Them All: Physics-Informed Conditional Diffusion Model for Driving at the Limits</title>
+      <link>https://franckdjeumou.github.io/publication/djeumou-one-model-for-all-2024/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/djeumou-one-model-for-all-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

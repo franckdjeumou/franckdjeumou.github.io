@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexander Davydov | Franck Djeumou</title>
+    <link>https://franckdjeumou.github.io/author/alexander-davydov/</link>
+      <atom:link href="https://franckdjeumou.github.io/author/alexander-davydov/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alexander Davydov</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Franck Djeumou</copyright><lastBuildDate>Fri, 06 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://franckdjeumou.github.io/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_300x300_fit_lanczos_3.png</url>
+      <title>Alexander Davydov</title>
+      <link>https://franckdjeumou.github.io/author/alexander-davydov/</link>
+    </image>
+    
+    <item>
+      <title>First, Learn What You Don’t Know: Active Information Gathering for Driving at the Limits of Handling</title>
+      <link>https://franckdjeumou.github.io/publication/sacha-first-learn_what-not-know-2024/</link>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/sacha-first-learn_what-not-know-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

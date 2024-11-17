@@ -5,12 +5,44 @@
     <link>https://franckdjeumou.github.io/publication/</link>
       <atom:link href="https://franckdjeumou.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Franck Djeumou</copyright><lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Franck Djeumou</copyright><lastBuildDate>Sat, 07 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://franckdjeumou.github.io/media/logo_hue890125a026c63f2721f3c5c263217e9_157891_300x300_fit_lanczos_3.png</url>
       <title>Publications</title>
       <link>https://franckdjeumou.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Reference-Free Formula Drift with Reinforcement Learning: From Driving Data to Tire Energy-Inspired, Real-World Policies</title>
+      <link>https://franckdjeumou.github.io/publication/djeumou-rl-drift-2024/</link>
+      <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/djeumou-rl-drift-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First, Learn What You Don’t Know: Active Information Gathering for Driving at the Limits of Handling</title>
+      <link>https://franckdjeumou.github.io/publication/sacha-first-learn_what-not-know-2024/</link>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/sacha-first-learn_what-not-know-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Risk-Averse Model Predictive Control for Racing in Adverse Conditions</title>
+      <link>https://franckdjeumou.github.io/publication/lew-risk-averse-mpc-2024/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/lew-risk-averse-mpc-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>One Model to Drift Them All: Physics-Informed Conditional Diffusion Model for Driving at the Limits</title>
+      <link>https://franckdjeumou.github.io/publication/djeumou-one-model-for-all-2024/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://franckdjeumou.github.io/publication/djeumou-one-model-for-all-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>How to Learn and Generalize From Three Minutes of Data: Physics-Constrained and Uncertainty-Aware Neural Stochastic Differential Equations</title>
